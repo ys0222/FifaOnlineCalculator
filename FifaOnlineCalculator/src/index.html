@@ -1,0 +1,84 @@
+<html>
+<head>
+    <style>
+#main
+{
+    position:relative;
+	margin:0px auto;
+	width:100%;
+	min-width:350px;
+	max-width:800px;
+    box-sizing: border-box;
+}
+.input
+{
+    width : 100%;
+    height : 50px;
+    text-align : center;
+}
+#discount
+{
+    background-color: aliceblue;
+    text-align: center;
+}
+table
+{
+    margin : 0px auto;
+}
+    </style>
+</head>
+
+<body>
+<div id="main">
+<input class="input" type="text" placeholder="판매 금액 입력" id="SellPrice">
+
+<span><p id="discount">[할인]</p></span>
+<table border="0">
+<tr>
+<td >
+<button onclick="house()">House</button>
+</td>
+<td><button onclick="house10()">10% 할인 쿠폰</button></td>
+<td><button onclick="house20()">20% 할인 쿠폰</button></td>
+<td><button onclick="house30()">30% 할인 쿠폰</button></td>
+</tr>
+
+    <tr>
+    <td>
+    <button onclick="TC()">Top Class</button>
+    </td>
+    <td><button onclick="TC()">10% 할인 쿠폰</button></td>
+    <td><button onclick="TC20()">20% 할인 쿠폰</button></td>
+    <td><button onclick="TC30()">30% 할인 쿠폰</button></td>
+    </tr>
+
+    <tr>
+    <td>
+    <button onclick="PC()">PC</button>
+    </td>
+    <td><button onclick="PC10()">10% 할인 쿠폰</button></td>
+    <td><button onclick="PC20()">20% 할인 쿠폰</button></td>
+    <td><button onclick="PC30()">30% 할인 쿠폰</button></td>
+    </tr>
+
+    <tr>
+    <td>
+    <button onclick="all()">Top + PC</button>
+    </td>
+    <td><button onclick="all10()">10% 할인 쿠폰</button></td>
+    <td><button onclick="all20()">20% 할인 쿠폰</button></td>
+    <td><button onclick="all30()">30% 할인 쿠폰</button></td>
+    </tr>
+</table>
+
+</div>
+
+<script src="index.js">
+
+
+
+</script>
+</body>
+
+</html>
+
